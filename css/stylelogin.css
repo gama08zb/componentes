@@ -1,0 +1,31 @@
+body{
+	background-image: url("../img/fondo_login.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+}
+.formulario{
+	background-color: rgba(0, 0, 0, 0.6);;
+	
+	text-align: center;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 30%;
+
+}
+input{
+	background-color: white;
+	width: 80%;
+}
+h1{
+	color:white;
+}
+.rounded_border {
+	border: 2px solid white;
+	border-radius : 25px 0px 25px 0px;
+	padding: 20px 10px 40px 10px;
+}
